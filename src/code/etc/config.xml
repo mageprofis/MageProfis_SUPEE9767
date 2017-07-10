@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <MageProfis_SUPEE9767>
+            <version>1.0.0.0</version>
+        </MageProfis_SUPEE9767>
+    </modules>
+
+    <global>
+
+        <helpers>
+            <mpsupee9767>
+                <class>MageProfis_SUPEE9767_Helper</class>
+            </mpsupee9767>
+        </helpers>
+        <blocks>
+            <mpsupee9767>
+                <class>MageProfis_SUPEE9767_Block</class>
+            </mpsupee9767>
+        </blocks>
+
+        <resources>
+            <mpsupee9767_setup>
+                <setup>
+                    <module>MageProfis_SUPEE9767</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </mpsupee9767_setup>
+        </resources>
+
+    </global>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <mp_supee9767>
+                    <file>mp_supee9767.xml</file>
+                </mp_supee9767>
+            </updates>
+        </layout>
+    </adminhtml>
+
+</config>

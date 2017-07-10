@@ -1,0 +1,3 @@
+MageProfis_SUPEE9767.xml                        app/etc/modules/MageProfis_SUPEE9767.xml
+src/code                                        app/code/community/MageProfis/SUPEE9767
+src/design/adminhtml/layout/mp_supee9767.xml    app/design/adminhtml/default/default/layout/mp_supee9767.xml
