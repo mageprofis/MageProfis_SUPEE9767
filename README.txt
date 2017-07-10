@@ -1,0 +1,4 @@
+- Readded the Symlink Settings to Backend
+- Removed Hint when Checkout Form Key is Disabled
+- Removed Hint when Symlinks are Active
+- Setup Model Disabled Checkout Form Key and Enabled Symlinks
