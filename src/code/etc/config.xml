@@ -18,6 +18,11 @@
                 <class>MageProfis_SUPEE9767_Block</class>
             </mpsupee9767>
         </blocks>
+        <models>
+            <mpsupee9767>
+                <class>MageProfis_SUPEE9767_Model</class>
+            </mpsupee9767>
+        </models>
 
         <resources>
             <mpsupee9767_setup>
@@ -29,6 +34,17 @@
                 </connection>
             </mpsupee9767_setup>
         </resources>
+
+        <events>
+            <core_block_abstract_to_html_before>
+                <observers>
+                    <mpsupee9767>
+                        <class>mpsupee9767/observer</class>
+                        <method>coreBlockAbstractToHtmlBefore</method>
+                    </mpsupee9767>
+                </observers>
+            </core_block_abstract_to_html_before>
+        </events>
 
     </global>
 
@@ -42,4 +58,12 @@
         </layout>
     </adminhtml>
 
+    <default>
+        <dev>
+            <template>
+                <allow_symlink>1</allow_symlink>
+                <allow_only_template_files>1</allow_only_template_files>
+            </template>
+        </dev>
+    </default>
 </config>
