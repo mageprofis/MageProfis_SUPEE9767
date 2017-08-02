@@ -11,7 +11,7 @@ class MageProfis_SUPEE9767_Model_Observer {
             $suffix = pathinfo($templateFile, PATHINFO_EXTENSION);
             if (!in_array($suffix, array('phtml', 'html', 'tpl')))
             {
-                if ($block->getTemplate() == '' || strlen($block->getTemplate()) > 0)
+                if ($block->getTemplate() != '' || strlen($block->getTemplate()) > 0)
                 {
                     $msg = 'SUPEE-9767: Not valid script path:' . $templateFile;
                     Mage::log($msg, Zend_Log::CRIT, null, null, true);
